@@ -1,1 +1,1 @@
-Gæk, gæk, gæk din mor er en sæk.
+Gæk, gæk, gæk din mor er en sæk. (NO)
