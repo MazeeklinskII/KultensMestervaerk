@@ -90,7 +90,7 @@
   }
 
   #matematik {
-    background-image:  url('images/censored.png');
+    background-image:  url('images/Satan.png');
   }
 
   #engelsk {
@@ -107,6 +107,25 @@
 
   #dansk {
     background-image:  url('images/dansk.jpg');
+  }
+
+  .button {
+
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 1px #000,
+    1px -1px 1px #000,
+    -1px 1px 1px #000,
+    1px 1px 1px #000; 
+    cursor: wait;
+    padding: 18px;
+    max-width: 300%;
+    border: none;
+    text-align: middle;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
   }
 
   .content .element {
