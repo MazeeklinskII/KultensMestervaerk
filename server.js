@@ -208,3 +208,7 @@ async function checkPassword(username, password) {
 
 // start server
 app.listen(port, () => console.log("Listening on port " + port));
+
+function Takedare() {
+  alert("Du grim");
+}
