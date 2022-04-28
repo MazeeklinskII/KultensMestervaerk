@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaj Børges Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head> 
+    <!-- Banner HTML -->
+    <div class="banner">
+        <h1>Satanisk kult 🛐🛐🛐</h1>
+        <font-color></font-color>
+    </div>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Kaj Børge</a>
+            <a href="informatik.html">Vores historie</a>
+           
+            <a href="matematik.html" class="active">Knappen...</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="matematik">
+            <div class="element middle">
+            <!-- <img class="button" id="profile-picture" src="images/Tryk.png"> -->
+            <a href="https://www.youtube.com/"><button onclick="Takedare()" class="button">Take a dare, if you dare!</button>
+            </div>
+            
+
+
+
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Do Something";
+
+// 2. Append somewhere
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("did something");
+});
